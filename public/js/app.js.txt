@@ -1,0 +1,17 @@
+const express = require('express');
+const bodyParser = require('body-parser');
+const app = express();
+
+app.use(bodyParser.urlencoded({ extended: true }));
+
+app.post('/save-checklist', (req, res) => {
+  const items = req.body.item;
+  // items 배열에는 체크된 아이템의 값들이 들어있습니다.
+  // 이 값을 데이터베이스에 저장하거나 다른 처리를 수행할 수 있습니다.
+  console.log(items);
+  res.send('체크리스트가 저장되었습니다.');
+});
+
+app.listen(3000, () => {
+  console.log('서버가 시작되었습니다.');
+});
