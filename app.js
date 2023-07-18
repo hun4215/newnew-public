@@ -75,6 +75,216 @@ app.get('/curriculum', (req, res) => {
     });
 });
 
+app.get('/1', (req, res) => {
+  // 데이터베이스에서 유저 정보를 가져옵니다.
+  const sql = 'SELECT * FROM Users';
+  
+  connection.query(sql, (err, results) => {
+      if (err) {
+          throw err;
+      }
+      console.log(results)
+      // userList.ejs 템플릿을 렌더링하고, 유저 정보를 전달합니다.
+      res.render('1', { users: results });
+  });
+});
+
+app.get('/2', (req, res) => {
+  // 데이터베이스에서 유저 정보를 가져옵니다.
+  const sql = 'SELECT * FROM Users';
+  
+  connection.query(sql, (err, results) => {
+      if (err) {
+          throw err;
+      }
+      console.log(results)
+      // userList.ejs 템플릿을 렌더링하고, 유저 정보를 전달합니다.
+      res.render('2', { users: results });
+  });
+});
+
+app.get('/3', (req, res) => {
+  // 데이터베이스에서 유저 정보를 가져옵니다.
+  const sql = 'SELECT * FROM Users';
+  
+  connection.query(sql, (err, results) => {
+      if (err) {
+          throw err;
+      }
+      console.log(results)
+      // userList.ejs 템플릿을 렌더링하고, 유저 정보를 전달합니다.
+      res.render('3', { users: results });
+  });
+});
+
+app.get('/4', (req, res) => {
+  // 데이터베이스에서 유저 정보를 가져옵니다.
+  const sql = 'SELECT * FROM Users';
+  
+  connection.query(sql, (err, results) => {
+      if (err) {
+          throw err;
+      }
+      console.log(results)
+      // userList.ejs 템플릿을 렌더링하고, 유저 정보를 전달합니다.
+      res.render('4', { users: results });
+  });
+});
+
+app.get('/5', (req, res) => {
+  // 데이터베이스에서 유저 정보를 가져옵니다.
+  const sql = 'SELECT * FROM Users';
+  
+  connection.query(sql, (err, results) => {
+      if (err) {
+          throw err;
+      }
+      console.log(results)
+      // userList.ejs 템플릿을 렌더링하고, 유저 정보를 전달합니다.
+      res.render('5', { users: results });
+  });
+});
+
+app.get('/6', (req, res) => {
+  // 데이터베이스에서 유저 정보를 가져옵니다.
+  const sql = 'SELECT * FROM Users';
+  
+  connection.query(sql, (err, results) => {
+      if (err) {
+          throw err;
+      }
+      console.log(results)
+      // userList.ejs 템플릿을 렌더링하고, 유저 정보를 전달합니다.
+      res.render('6', { users: results });
+  });
+});
+
+app.get('/7', (req, res) => {
+  // 데이터베이스에서 유저 정보를 가져옵니다.
+  const sql = 'SELECT * FROM Users';
+  
+  connection.query(sql, (err, results) => {
+      if (err) {
+          throw err;
+      }
+      console.log(results)
+      // userList.ejs 템플릿을 렌더링하고, 유저 정보를 전달합니다.
+      res.render('7', { users: results });
+  });
+});
+
+app.get('/8', (req, res) => {
+  // 데이터베이스에서 유저 정보를 가져옵니다.
+  const sql = 'SELECT * FROM Users';
+  
+  connection.query(sql, (err, results) => {
+      if (err) {
+          throw err;
+      }
+      console.log(results)
+      // userList.ejs 템플릿을 렌더링하고, 유저 정보를 전달합니다.
+      res.render('8', { users: results });
+  });
+});
+
+app.get('/9', (req, res) => {
+  // 데이터베이스에서 유저 정보를 가져옵니다.
+  const sql = 'SELECT * FROM Users';
+  
+  connection.query(sql, (err, results) => {
+      if (err) {
+          throw err;
+      }
+      console.log(results)
+      // userList.ejs 템플릿을 렌더링하고, 유저 정보를 전달합니다.
+      res.render('9', { users: results });
+  });
+});
+
+app.get('/10', (req, res) => {
+  // 데이터베이스에서 유저 정보를 가져옵니다.
+  const sql = 'SELECT * FROM Users';
+  
+  connection.query(sql, (err, results) => {
+      if (err) {
+          throw err;
+      }
+      console.log(results)
+      // userList.ejs 템플릿을 렌더링하고, 유저 정보를 전달합니다.
+      res.render('10', { users: results });
+  });
+});
+
+app.get('/11', (req, res) => {
+  // 데이터베이스에서 유저 정보를 가져옵니다.
+  const sql = 'SELECT * FROM Users';
+  
+  connection.query(sql, (err, results) => {
+      if (err) {
+          throw err;
+      }
+      console.log(results)
+      // userList.ejs 템플릿을 렌더링하고, 유저 정보를 전달합니다.
+      res.render('11', { users: results });
+  });
+});
+
+app.get('/12', (req, res) => {
+  // 데이터베이스에서 유저 정보를 가져옵니다.
+  const sql = 'SELECT * FROM Users';
+  
+  connection.query(sql, (err, results) => {
+      if (err) {
+          throw err;
+      }
+      console.log(results)
+      // userList.ejs 템플릿을 렌더링하고, 유저 정보를 전달합니다.
+      res.render('12', { users: results });
+  });
+});
+
+app.get('/13', (req, res) => {
+  // 데이터베이스에서 유저 정보를 가져옵니다.
+  const sql = 'SELECT * FROM Users';
+  
+  connection.query(sql, (err, results) => {
+      if (err) {
+          throw err;
+      }
+      console.log(results)
+      // userList.ejs 템플릿을 렌더링하고, 유저 정보를 전달합니다.
+      res.render('13', { users: results });
+  });
+});
+
+app.get('/vedio', (req, res) => {
+  // 데이터베이스에서 유저 정보를 가져옵니다.
+  const sql = 'SELECT * FROM Users';
+  
+  connection.query(sql, (err, results) => {
+      if (err) {
+          throw err;
+      }
+      console.log(results)
+      // userList.ejs 템플릿을 렌더링하고, 유저 정보를 전달합니다.
+      res.render('vedio', { users: results });
+  });
+});
+
+app.get('/index', (req, res) => {
+  // 데이터베이스에서 유저 정보를 가져옵니다.
+  const sql = 'SELECT * FROM Users';
+  
+  connection.query(sql, (err, results) => {
+      if (err) {
+          throw err;
+      }
+      console.log(results)
+      // userList.ejs 템플릿을 렌더링하고, 유저 정보를 전달합니다.
+      res.render('index', { users: results });
+  });
+});
+
 app.get('/', (req, res) => {
     res.render('index', { title: 'My App', message: 'Hello, World!' });
 });
@@ -83,6 +293,21 @@ app.get('/adduser', (req, res) => {
     // addUser.ejs 템플릿을 렌더링합니다.
     res.render('addUser');
 });
+
+app.post('/checklist/:id', (req, res) => {
+  const itemId = req.params.id;
+  const checked = req.body.checked;
+
+  const sql = 'UPDATE Checklist SET checked = ? WHERE id = ?';
+  
+  connection.query(sql, [checked, itemId], (err, results) => {
+    if (err) {
+      throw err;
+    }
+    res.send('체크리스트 아이템이 업데이트되었습니다.');
+  });
+});
+
 
 app.post('/users', (req, res) => {
     // POST 요청의 body에서 유저 정보를 가져옵니다.

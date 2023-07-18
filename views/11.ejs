@@ -9,7 +9,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>덕산한의원</title>
+      <title>About</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -29,26 +29,23 @@
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
    </head>
    <body>
-      <div class="header_section">
+      <div class="header_section header_bg">
          <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <a class="navbar-brand"href="/index">덕산한의원</a>
+               <a class="navbar-brand"href="index.html">덕산한의원</a>
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
                </button>
                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto">
+                     <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                     </li>
                      <li class="nav-item active">
-                        <a class="nav-link" href="/index">Home</a>
+                        <a class="nav-link" href="coffees.html">커리큘럼</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="/curriculum">커리큘럼</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="도서 목록.html">도서 목록</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="/vedio">영상</a>
+                        <a class="nav-link" href="blog.html">Blog</a>
                      </li>
                      <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
@@ -65,46 +62,54 @@
                </div>
             </nav>
          </div>
-         <!-- banner section start --> 
-         <div class="banner_section layout_padding">
-            <div class="container">
-               <div id="banner_slider" class="carousel slide" data-ride="carousel">
-                  <div class="carousel-inner">
-                     <div class="carousel-item active">
-                        <div class="row">
-                           <div class="col-md-6">
-                              <div class="banner_img"><img src="images/banner-img.png"></div>
-                           </div>
-                           <div class="col-md-6">
-                              <div class="banner_taital_main">
-                                 <style>
-                                    .banner_taital {
-                                      font-size: 40px; /* 이 값을 수정해 글자 크기를 조절하세요 */
-                                    }
-                                    
-                                  </style>
-                                 <h1 class="banner_taital">덕산 교육 커리큘럼</h1>
-                                 <h5 class="tasty_text">앱으로 배울 수 있게</h5>
-                                 <p class="banner_text"> </p>
-                                 <div class="btn_main"> 
-                                    <div class="about_bt"><a href="/curriculum">부원장 과정</a></div>
-                                    <div class="callnow_bt active"><a href="선생님 커리큘럼.html">선생님 과정</a></div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     
-                     </div>
-                  </div>
-                 
-               </div>
-            </div>
-         </div>
-         <!-- banner section end -->
       </div>
       <!-- header section end -->
-      
-   
+      <!-- coffee section start -->
+      <div class="coffee_section layout_padding">
+         <div class="container">
+            <div class="line">
+               <h1 class="coffee_taital">11주차 교육 리스트</h1>
+               <div class="bulit_icon"><img src="images/bulit-icon.png"></div>
+            </div>
+         </div>
+         <div class="coffee_section_2">
+            <div id="main_slider" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <div class="container-fluid">
+                        <div class="line">
+                           <div class="col-lg-3 col-md-6">
+                              <div class="coffee_img"></div>
+                              <h3 class="types_text">리허설 영상 통과? <label for="check"></label>
+                                 <input type="checkbox" id="check" name="check"></h3>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                              <div class="coffee_img"></div>
+                              <h3 class="types_text">추나 연습 꾸준히 <label for="check"></label>
+                                 <input type="checkbox" id="check" name="check"> </h3>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                              <div class="coffee_img"></div>
+                              <h3 class="types_text">약침 강의: 두 개천골 치유기법 + 조원장님 박종현 원장님 약침 강의 듣기 <label for="check"></label>
+                                 <input type="checkbox" id="check" name="check"></h3>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  
+                  
+                  </div>
+               </div>
+               <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+               <i class="fa fa-arrow-left"></i>
+               </a>
+               <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+               <i class="fa fa-arrow-right"></i>
+               </a>
+            </div>
+         </div>
+      </div>
+      <!-- coffee section end -->
       <!-- footer section start -->
       <div class="footer_section layout_padding">
          <div class="container">
